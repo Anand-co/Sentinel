@@ -1,0 +1,17 @@
+
+# Java / Maven
+sentinel_backend/target/
+sentinel_backend/data/
+*.class
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
